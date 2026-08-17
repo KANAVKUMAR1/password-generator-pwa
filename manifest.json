@@ -1,1 +1,20 @@
-{"name":"Password Generator","short_name":"Password Gen","description":"Offline random password generator","start_url":"./","scope":"./","display":"standalone","background_color":"#020617","theme_color":"#0f172a","icons":[{"src":"icons/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
+{
+  "name": "Password Generator",
+  "short_name": "Password Generator",
+  "description": "Offline random password generator",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "id": "Password Generator",
+  "lang": "en"
+}
