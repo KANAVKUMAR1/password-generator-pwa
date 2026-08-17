@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0f172a"><meta name="description" content="Offline random password generator">
+<link rel="manifest" href="manifest.json"><link rel="icon" href="icons/icon.svg">
+<link rel="stylesheet" href="style.css"><title>Password Generator</title>
+</head><body><main class="app"><section class="card">
+<div class="brand"><div class="logo">🔐</div><div><h1>Password Generator</h1><p>Generate strong passwords locally.</p></div></div>
+<div class="password-box"><input id="password" readonly aria-label="Generated password"><button id="copyBtn">Copy</button></div>
+<div class="strength"><b id="strengthText">Strong</b><div><span id="strengthBar"></span></div></div>
+<div class="setting"><div><label for="length">Password length</label><b id="lengthValue">16</b></div><input id="length" type="range" min="8" max="32" value="16"></div>
+<div class="options">
+<label><input id="uppercase" type="checkbox" checked> Uppercase (A-Z)</label>
+<label><input id="lowercase" type="checkbox" checked> Lowercase (a-z)</label>
+<label><input id="numbers" type="checkbox" checked> Numbers (0-9)</label>
+<label><input id="symbols" type="checkbox" checked> Symbols (!@#)</label>
+</div>
+<button id="generateBtn" class="generate">Generate Password</button>
+<p id="message" class="message"></p><footer>Works offline • Passwords stay on your device</footer>
+</section></main><script src="app.js"></script></body></html>
